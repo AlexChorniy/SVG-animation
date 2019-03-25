@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <title>HW17</title>
+	<style>
+	.svg {
+  border: 1px dashed grey;
+  background-color: rgb(10, 77, 104);
+}
+
+@keyframes ufo {
+  0% {
+    transform: translateY(0) translateX(0) scale(0.1);
+  }
+  25% {
+    transform: translateY(50px) translateX(50px) scale(0.5);
+  }
+  75% {
+    transform: translateY(100px) translateX(100px) scale(0.75);
+  }
+  90% {
+    transform: translateY(150px) translateX(150px) scale(1);
+  }
+  100% {
+    transform: translateY(150px) translateX(350px);
+  }
+}
+
+.ufo {
+  animation: ufo 7s linear 1 forwards;
+}
+
+@keyframes linearGradient156 {
+  0% {
+    stop-color: #2ad4ff;
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  25% {
+    stop-color: #2abbdf;
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  75% {
+    stop-color: #287588;
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  90% {
+    stop-color: #2c5058;
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    stop-color: #284c55;
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+#stop152 {
+  animation: linearGradient156;
+  animation-delay: 10s;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#rect150 {
+  animation: rect150;
+  animation-delay: 0;
+  animation-duration: 28s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rect150 {
+  0% {
+    stop-color: #2ad4ff;
+    opacity: 0;
+  }
+  25% {
+    stop-color: #2abbdf;
+    opacity: 0;
+  }
+  75% {
+    stop-color: #287588;
+    opacity: 0.5;
+  }
+  90% {
+    stop-color: #2c5058;
+    opacity: 0.5;
+  }
+  99% {
+    stop-color: #2c5058;
+    opacity: 0.5;
+  }
+  100% {
+    stop-color: #284c55;
+    opacity: 0;
+  }
+}
+
+.robot {
+  transform: translateY(187px) translateX(447px) scale(0.2);
+  animation: robot;
+  animation-delay: 14s;
+  animation-duration: 15s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes robot {
+  0% {
+    transform: translateY(187px) translateX(447px) scale(0.2);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(374px) translateX(447px) scale(0.2);
+    opacity: 1;
+  }
+}
+	</style>
+</head>
+
+<body>
+
+    <svg width="800" height="500" class="svg" viewBox="0 0 800 500">
+
+
+        <circle id="my-circle" r="20" cx="47" cy="30" fill="url(#Gradient-1)" />
+
+
+        <g inkscape:label="Layer 1" inkscape:groupmode="layer" class="robot">
+            <g id="g3949">
+                <circle r="20" style="stroke-width:0.20227273;fill:#ac9d93" cy="66.845222" cx="89.925613" id="path3715" />
+                <ellipse transform="scale(-1,1)" ry="8.3154764" rx="3.96875" cy="66.8265" cx="-66.063751" id="path3717"
+                    style="fill:#ac9393;stroke-width:0.26458332" />
+                <ellipse transform="scale(-1,1)" ry="8.3154764" rx="3.96875" cy="67.068497" cx="-113.58075" id="path3717-0"
+                    style="fill:#ac9393;stroke-width:0.26458332" />
+                <rect y="42.622021" x="65.080002" height="16.630953" width="1.1339285" id="rect3755" style="fill:#ac9393;stroke-width:0.26458332" />
+                <rect y="43.377975" x="112.604" height="16.630953" width="1.1339285" id="rect3755-6" style="fill:#ac9393;stroke-width:0.26458332" />
+                <rect ry="4.1966329" y="59.175186" x="76.885002" height="8.3932657" width="26.836309" id="rect3772"
+                    style="fill:#00ffff;stroke-width:0.21382388" />
+                <rect ry="2.2890739" y="85.333344" x="81.642853" height="6.8035712" width="17.764881" id="rect3791"
+                    style="fill:#ac9d93;stroke-width:0.14616758" />
+            </g>
+            <path sodipodi:type="star" style="fill:#ac9d93;stroke-width:0.26458332" id="path3867" sodipodi:sides="5"
+                sodipodi:cx="84.216629" sodipodi:cy="112.40262" sodipodi:r1="25.327225" sodipodi:r2="20.490154"
+                sodipodi:arg1="1.5857206" sodipodi:arg2="2.2140391" inkscape:flatsided="true" inkscape:rounded="0"
+                inkscape:randomized="0" d="m 83.838653,137.72702 -23.823765,-17.85821 9.622219,-28.176234 29.770623,0.444338 8.77704,28.450856 z"
+                inkscape:transform-center-x="0.15712549" inkscape:transform-center-y="0.62119867" transform="matrix(1.3452563,0,0,0.26924546,-22.232421,66.626791)" />
+            <g id="g3953">
+                <rect ry="2.325124" y="100.07441" x="71.059532" height="61.232143" width="39.309525" id="rect3869"
+                    style="fill:#ac9d93;stroke-width:0.26458332" />
+                <rect ry="2.2890744" y="161.30655" x="71.059532" height="13.985117" width="40.065468" id="rect3873"
+                    style="fill:#ac9d93;stroke-width:0.26458332" />
+            </g>
+            <rect style="fill:#ac9d93;stroke-width:0.27561232" id="rect3875" width="19.276787" height="62.744045" x="71.059532"
+                y="175.29167" ry="2.2890744" />
+            <rect style="fill:#ac9d93;stroke-width:0.26458332" id="rect3892" width="18.520824" height="13.229159" x="71.059532"
+                y="238.03571" ry="2.2890744" />
+            <g id="g3932">
+                <rect ry="2.2890744" y="175.29167" x="91.848213" height="62.744045" width="19.276787" id="rect3875-1"
+                    style="fill:#ac9d93;stroke-width:0.27561232" />
+                <rect ry="2.2890744" y="238.03572" x="91.848213" height="13.229159" width="18.520824" id="rect3892-8"
+                    style="fill:#ac9d93;stroke-width:0.26458332" />
+            </g>
+            <g id="g3940">
+                <rect transform="rotate(11.027576)" ry="2.2890744" y="84.634193" x="77.172546" height="48.002975" width="11.717261"
+                    id="rect3817" style="fill:#ac9d93;stroke-width:0.26458332" />
+                <path inkscape:transform-center-y="0.12474497" inkscape:transform-center-x="0.81760794" d="m 51.536876,162.72998 -7.158693,-9.04571 6.390829,-9.6036 11.108442,3.11036 0.474566,11.52591 z"
+                    inkscape:randomized="0" inkscape:rounded="0" inkscape:flatsided="true" sodipodi:arg2="2.4721236"
+                    sodipodi:arg1="1.843805" sodipodi:r2="7.9387484" sodipodi:r1="9.8128328" sodipodi:cy="153.28058"
+                    sodipodi:cx="54.182707" sodipodi:sides="5" id="path3909" style="fill:#ac9d93;stroke-width:0.26458332"
+                    sodipodi:type="star" />
+            </g>
+            <g id="g3936">
+                <rect transform="rotate(-8.3285673)" ry="2.2890744" y="115.00591" x="94.709335" height="48.002975"
+                    width="11.717261" id="rect3817-9" style="fill:#ac9d93;stroke-width:0.26458332" />
+                <path transform="rotate(-23.827924,100.3756,171.96605)" inkscape:transform-center-y="0.51687531"
+                    inkscape:transform-center-x="-0.43174657" d="m 126.68368,175.16692 -7.15869,-9.04572 6.39083,-9.6036 11.10844,3.11037 0.47456,11.52591 z"
+                    inkscape:randomized="0" inkscape:rounded="0" inkscape:flatsided="true" sodipodi:arg2="2.4721236"
+                    sodipodi:arg1="1.843805" sodipodi:r2="7.9387484" sodipodi:r1="9.8128328" sodipodi:cy="165.71751"
+                    sodipodi:cx="129.32951" sodipodi:sides="5" id="path3909-9" style="fill:#ac9d93;stroke-width:0.26458332"
+                    sodipodi:type="star" />
+            </g>
+        </g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <g class="ufo">
+            <circle r="30" cx="115" cy="60" fill="#C0C0C0" stroke="orange" stroke-width="2" />
+            <ellipse rx="90" ry="15" cx="115" cy="70" fill="#C0C0C0" stroke="orange" stroke-width="2" />
+            <circle r="5" cx="115" cy="70" fill="gold" stroke="orange" stroke-width="1" />
+            <circle r="5" cx="80" cy="70" fill="gold" stroke="orange" stroke-width="1" />
+            <circle r="5" cx="150" cy="70" fill="gold" stroke="orange" stroke-width="1" />
+            <rect style="fill:url(#linearGradient158);stroke-width:0.26458332;fill-opacity:1" id="rect150" width="32.505951"
+                height="200" x="99" y="84" ry="0.75595164" />
+        </g>
+
+        <!-- <rect style="fill:url(#linearGradient158);stroke-width:0.26458332;fill-opacity:1" id="rect150" width="32.505951"
+            height="196.16965" x="448" y="237" ry="0.75595164" /> -->
+
+        <g id="defs2">
+            <linearGradient inkscape:collect="always" id="linearGradient156">
+                <stop style="stop-color:#2ad4ff;stop-opacity:1;" offset="0" id="stop152" />
+                <stop style="stop-color:#2ad4ff;stop-opacity:0;" offset="1" id="stop154" />
+            </linearGradient>
+            <linearGradient inkscape:collect="always" xlink:href="#linearGradient156" id="linearGradient158" x1="114.14882"
+                y1="-26.547615" x2="117.17262" y2="327.61609" gradientUnits="userSpaceOnUse" />
+        </g>
+
+
+        <defs>
+            <linearGradient id="Gradient-1">
+                <stop offset="0%" stop-color="#bbc42a" />
+                <stop offset="100%" stop-color="#765373" />
+            </linearGradient>
+        </defs>
+
+        <defs>
+            <linearGradient id="Gradient-2">
+                <stop offset="0%" stop-color="#3CB371" />
+                <stop offset="100%" stop-color="#006400" />
+            </linearGradient>
+        </defs>
+
+        <rect class="rectangle" x="0" y="85%" rx="2" ry="2" width="100%" height="100" fill="url(#Gradient-2)" stroke="#333333"
+            stroke-width="1px" />
+
+
+        <!-- <animate xlink:href="ufo" attributeName="cx" from="30" to="450" dur="5s" begin="click"  /> -->
+
+
+    </svg>
+
+
+
+</body>
+
+</html>
